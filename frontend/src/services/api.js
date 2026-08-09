@@ -2,7 +2,7 @@
  * API Service for PantryChef RAG Backend
  */
 
-const API_BASE = 'http://localhost:3000/api';
+const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api';
 
 /**
  * Streams chat response from /api/chat via Server-Sent Events (SSE)
