@@ -1,0 +1,18 @@
+[
+  {
+    "id": "user_1786263583217",
+    "googleId": "google_1786263583189",
+    "name": "Google User",
+    "email": "user.chef@gmail.com",
+    "picture": "https://lh3.googleusercontent.com/a/default-user",
+    "createdAt": "2026-08-09T08:19:43.217Z"
+  },
+  {
+    "id": "user_1786263780435",
+    "googleId": "google_1786263780407",
+    "name": "Chesta Solanki",
+    "email": "chestasolanki664@gmail.com",
+    "picture": "https://ui-avatars.com/api/?name=Chesta%20Solanki&background=10b981&color=fff&bold=true",
+    "createdAt": "2026-08-09T08:23:00.435Z"
+  }
+]
