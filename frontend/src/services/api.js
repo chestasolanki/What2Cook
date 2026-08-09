@@ -1,8 +1,27 @@
 /**
- * API Service for PantryChef RAG Backend
+ * API Service for What2Cook Backend
  */
 
 const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api';
+
+/**
+ * Safe JSON response parser that catches HTML 404 responses
+ */
+async function parseJsonResponse(res) {
+  const contentType = res.headers.get('content-type');
+  if (contentType && contentType.includes('application/json')) {
+    return res.json();
+  }
+  const text = await res.text();
+  if (text.trim().startsWith('<')) {
+    throw new Error('Received HTML response instead of API JSON. Please check backend VITE_API_BASE_URL URL setting.');
+  }
+  try {
+    return JSON.parse(text);
+  } catch {
+    throw new Error(`API Error ${res.status}: ${text || 'Unknown response'}`);
+  }
+}
 
 /**
  * Streams chat response from /api/chat via Server-Sent Events (SSE)
@@ -23,7 +42,8 @@ export async function streamRAGChat({ message, maxCalories, minProtein, isVegeta
     });
 
     if (!response.ok) {
-      throw new Error(`Server returned ${response.status}`);
+      const errText = await response.text();
+      throw new Error(errText.startsWith('<') ? 'Backend server unavailable' : errText);
     }
 
     const reader = response.body.getReader();
@@ -62,14 +82,19 @@ export async function streamRAGChat({ message, maxCalories, minProtein, isVegeta
       }
     }
   } catch (err) {
-    onError && onError(err.message || 'Network error streaming RAG response');
+    onError && onError(err.message || 'Network error streaming response');
   }
 }
 
 export async function fetchPopularRecipesApi() {
-  const res = await fetch(`${API_BASE}/recipes/popular`);
-  if (!res.ok) throw new Error('Failed to fetch popular recipes');
-  return res.json();
+  try {
+    const res = await fetch(`${API_BASE}/recipes/popular`);
+    if (!res.ok) throw new Error('Failed to fetch popular recipes');
+    return await parseJsonResponse(res);
+  } catch (err) {
+    console.warn('Popular recipes API notice:', err.message);
+    return { recipes: [] };
+  }
 }
 
 /**
@@ -82,16 +107,21 @@ export async function searchRecipes({ query, maxCalories, minProtein }) {
 
   const res = await fetch(`${API_BASE}/recipes/search?${params.toString()}`);
   if (!res.ok) throw new Error('Failed to search recipes');
-  return res.json();
+  return parseJsonResponse(res);
 }
 
 /**
  * Saved Recipes API Endpoints
  */
 export async function fetchSavedRecipes() {
-  const res = await fetch(`${API_BASE}/saved-recipes`);
-  if (!res.ok) throw new Error('Failed to fetch saved recipes');
-  return res.json();
+  try {
+    const res = await fetch(`${API_BASE}/saved-recipes`);
+    if (!res.ok) throw new Error('Failed to fetch saved recipes');
+    return await parseJsonResponse(res);
+  } catch (err) {
+    console.warn('Saved recipes API notice:', err.message);
+    return { recipes: [] };
+  }
 }
 
 export async function saveRecipeApi(recipe) {
@@ -101,7 +131,7 @@ export async function saveRecipeApi(recipe) {
     body: JSON.stringify({ recipe })
   });
   if (!res.ok) throw new Error('Failed to save recipe');
-  return res.json();
+  return parseJsonResponse(res);
 }
 
 export async function deleteSavedRecipeApi(id) {
@@ -109,7 +139,7 @@ export async function deleteSavedRecipeApi(id) {
     method: 'DELETE'
   });
   if (!res.ok) throw new Error('Failed to delete saved recipe');
-  return res.json();
+  return parseJsonResponse(res);
 }
 
 /**
@@ -121,11 +151,7 @@ export async function loginWithGoogleApi(credential) {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ credential })
   });
-  if (!res.ok) {
-    const data = await res.json();
-    throw new Error(data.error || 'Google authentication failed');
-  }
-  return res.json();
+  return parseJsonResponse(res);
 }
 
 export async function updateProfileApi({ name, token }) {
@@ -137,9 +163,5 @@ export async function updateProfileApi({ name, token }) {
     },
     body: JSON.stringify({ name })
   });
-  if (!res.ok) {
-    const data = await res.json();
-    throw new Error(data.error || 'Failed to update profile');
-  }
-  return res.json();
+  return parseJsonResponse(res);
 }
