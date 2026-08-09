@@ -14,26 +14,26 @@ export default function Navbar({ user, onOpenProfile, onOpenAuth }) {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Left: Brand Logo (What2Cook) */}
         <div onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="flex items-center gap-2.5 cursor-pointer">
-          <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-orange-600 to-red-500 flex items-center justify-center shadow-lg shadow-orange-500/30">
+          <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-rose-500 to-pink-600 flex items-center justify-center shadow-lg shadow-rose-500/30">
             <ChefHat className="w-6 h-6 text-white font-bold" />
           </div>
           <span className="font-extrabold text-2.5xl tracking-tight text-slate-900">
-            What<span className="text-orange-600">2Cook</span>
+            What<span className="text-rose-500">2Cook</span>
           </span>
         </div>
 
         {/* Center: Valid App Navbar Tags */}
         <div className="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-600">
-          <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-orange-600 font-bold border-b-2 border-orange-600 pb-0.5 cursor-pointer">
+          <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-rose-500 font-bold border-b-2 border-rose-500 pb-0.5 cursor-pointer">
             Home
           </button>
-          <button onClick={() => scrollToSection('recipe-search-section')} className="hover:text-orange-600 transition-colors cursor-pointer">
+          <button onClick={() => scrollToSection('recipe-search-section')} className="hover:text-rose-500 transition-colors cursor-pointer">
             Find Recipes
           </button>
-          <button onClick={() => scrollToSection('popular-recipes-section')} className="hover:text-orange-600 transition-colors cursor-pointer">
+          <button onClick={() => scrollToSection('popular-recipes-section')} className="hover:text-rose-500 transition-colors cursor-pointer">
             Trending Dishes
           </button>
-          <button onClick={() => scrollToSection('chat-section')} className="hover:text-orange-600 transition-colors cursor-pointer">
+          <button onClick={() => scrollToSection('chat-section')} className="hover:text-rose-500 transition-colors cursor-pointer">
             AI Assistant
           </button>
         </div>
@@ -43,17 +43,17 @@ export default function Navbar({ user, onOpenProfile, onOpenAuth }) {
           {user ? (
             <button
               onClick={onOpenProfile}
-              className="flex items-center gap-2.5 p-1 pr-4 rounded-full bg-white border border-orange-100 hover:border-orange-300 transition-all cursor-pointer shadow-sm hover:shadow-md"
+              className="flex items-center gap-2.5 p-1 pr-4 rounded-full bg-white border border-rose-100 hover:border-rose-300 transition-all cursor-pointer shadow-sm hover:shadow-md"
               title={`${user.name} - Profile & Saved Recipes`}
             >
               {user.picture ? (
                 <img
                   src={user.picture}
                   alt={user.name}
-                  className="w-8 h-8 rounded-full object-cover border border-orange-400"
+                  className="w-8 h-8 rounded-full object-cover border border-rose-400"
                 />
               ) : (
-                <div className="w-8 h-8 rounded-full bg-orange-100 text-orange-600 flex items-center justify-center font-bold text-xs">
+                <div className="w-8 h-8 rounded-full bg-rose-100 text-rose-600 flex items-center justify-center font-bold text-xs">
                   {user.name?.[0] || <User className="w-4 h-4" />}
                 </div>
               )}
@@ -62,7 +62,7 @@ export default function Navbar({ user, onOpenProfile, onOpenAuth }) {
           ) : (
             <button
               onClick={onOpenAuth}
-              className="px-6 py-2.5 rounded-full bg-gradient-to-r from-orange-600 to-red-500 hover:from-orange-500 hover:to-red-400 text-white font-bold text-xs shadow-lg shadow-orange-500/25 transition-all cursor-pointer hover:scale-105"
+              className="px-6 py-2.5 rounded-full bg-gradient-to-r from-rose-500 to-pink-600 hover:from-rose-600 hover:to-pink-700 text-white font-bold text-xs shadow-lg shadow-rose-500/25 transition-all cursor-pointer hover:scale-105"
             >
               Sign In
             </button>

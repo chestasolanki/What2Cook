@@ -11,15 +11,15 @@ export default function HeroSection() {
 
   return (
     <div className="relative min-h-[85vh] flex flex-col justify-center px-6 sm:px-12 py-8 overflow-hidden select-none">
-      {/* Background Soft Peach Glow */}
-      <div className="absolute top-10 right-1/4 w-[500px] h-[500px] bg-orange-200/40 rounded-full blur-3xl pointer-events-none"></div>
+      {/* Background Soft Rose Glow */}
+      <div className="absolute top-10 right-1/4 w-[500px] h-[500px] bg-rose-100/40 rounded-full blur-3xl pointer-events-none"></div>
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10 w-full">
         {/* Left Side: Bold Headline & Actions */}
         <div className="lg:col-span-6 space-y-8 text-left">
           <div className="space-y-4 animate-page-load" style={{ animationDelay: '150ms' }}>
             <h1 className="text-5xl sm:text-7xl font-black text-slate-900 tracking-tight leading-[1.08]">
-              Healthy <span className="text-orange-600">Cooking</span> is an Important Part of Lifestyle
+              Healthy <span className="text-rose-500">Cooking</span> is an Important Part of Lifestyle
             </h1>
 
             <p className="text-base sm:text-lg text-slate-600 font-normal leading-relaxed max-w-lg">
@@ -31,7 +31,7 @@ export default function HeroSection() {
           <div className="flex flex-wrap items-center gap-5 animate-page-load" style={{ animationDelay: '300ms' }}>
             <button
               onClick={scrollToSearch}
-              className="px-8 py-4 rounded-full bg-gradient-to-r from-orange-600 to-red-500 hover:from-orange-500 hover:to-red-400 text-white font-bold text-sm shadow-xl shadow-orange-500/25 flex items-center gap-2 transition-all cursor-pointer hover:scale-105"
+              className="px-8 py-4 rounded-full bg-gradient-to-r from-rose-500 to-pink-600 hover:from-rose-600 hover:to-pink-700 text-white font-bold text-sm shadow-xl shadow-rose-500/25 flex items-center gap-2 transition-all cursor-pointer hover:scale-105"
             >
               <span>Explore Recipes</span>
               <ArrowRight className="w-4 h-4" />
@@ -39,9 +39,9 @@ export default function HeroSection() {
 
             <button
               onClick={scrollToSearch}
-              className="flex items-center gap-3 px-6 py-4 rounded-full bg-white hover:bg-orange-50 border border-orange-100 text-slate-800 font-bold text-sm shadow-sm transition-all cursor-pointer hover:scale-105"
+              className="flex items-center gap-3 px-6 py-4 rounded-full bg-white hover:bg-rose-50 border border-rose-100 text-slate-800 font-bold text-sm shadow-sm transition-all cursor-pointer hover:scale-105"
             >
-              <div className="w-8 h-8 rounded-full bg-orange-600 text-white flex items-center justify-center shadow-md">
+              <div className="w-8 h-8 rounded-full bg-rose-500 text-white flex items-center justify-center shadow-md">
                 <Play className="w-4 h-4 fill-white ml-0.5" />
               </div>
               <span>How It Works</span>
@@ -49,9 +49,9 @@ export default function HeroSection() {
           </div>
 
           {/* Service Feature Badges */}
-          <div className="flex flex-wrap gap-6 pt-4 text-xs font-semibold text-slate-700 border-t border-orange-100 animate-page-load" style={{ animationDelay: '400ms' }}>
+          <div className="flex flex-wrap gap-6 pt-4 text-xs font-semibold text-slate-700 border-t border-rose-100 animate-page-load" style={{ animationDelay: '400ms' }}>
             <div className="flex items-center gap-2">
-              <div className="p-2 rounded-xl bg-orange-100 text-orange-600">
+              <div className="p-2 rounded-xl bg-rose-100 text-rose-600">
                 <Clock className="w-4 h-4" />
               </div>
               <div>
@@ -75,7 +75,7 @@ export default function HeroSection() {
         {/* Right Side: Giant Gourmet Dish Frame & Badges */}
         <div className="lg:col-span-6 flex justify-center items-center relative animate-page-load" style={{ animationDelay: '450ms' }}>
           {/* Warm Yellow/Orange Background Circle Slice */}
-          <div className="absolute w-[360px] sm:w-[480px] h-[360px] sm:h-[480px] bg-amber-400 rounded-full z-0 transform translate-x-4 translate-y-2"></div>
+          <div className="absolute w-[360px] sm:w-[480px] h-[360px] sm:h-[480px] bg-rose-200/60 rounded-full z-0 transform translate-x-4 translate-y-2"></div>
 
           <div className="relative w-[340px] sm:w-[440px] aspect-square rounded-full p-3 flex items-center justify-center z-10">
             {/* Gourmet Dish Plate Image */}
@@ -86,13 +86,13 @@ export default function HeroSection() {
             />
 
             {/* Floating 20% Off Badge */}
-            <div className="absolute top-6 right-4 bg-lime-400 text-slate-950 font-black px-4 py-2 rounded-full shadow-xl border-2 border-white text-xs tracking-wider uppercase">
+            <div className="absolute top-6 right-4 bg-rose-500 text-white font-black px-4 py-2 rounded-full shadow-xl border-2 border-white text-xs tracking-wider uppercase">
               20% Off Nutrients
             </div>
 
             {/* Floating Calorie Badge */}
-            <div className="absolute bottom-6 left-4 bg-white/95 backdrop-blur-md px-4 py-2.5 rounded-2xl shadow-xl border border-orange-100 flex items-center gap-2">
-              <Flame className="w-4 h-4 text-orange-500" />
+            <div className="absolute bottom-6 left-4 bg-white/95 backdrop-blur-md px-4 py-2.5 rounded-2xl shadow-xl border border-rose-100 flex items-center gap-2">
+              <Flame className="w-4 h-4 text-rose-500" />
               <div className="text-left">
                 <div className="text-xs font-bold text-slate-900">Healthy Gourmet Bowl</div>
                 <div className="text-[10px] text-slate-500 font-semibold">180 kcal • 12g protein</div>

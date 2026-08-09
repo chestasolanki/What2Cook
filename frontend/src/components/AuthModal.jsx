@@ -64,7 +64,7 @@ export default function AuthModal({ isOpen, onClose, onAuthSuccess }) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-md animate-fadeIn">
-      <div className="relative w-full max-w-md bg-white p-6 sm:p-8 rounded-3xl border border-slate-100 shadow-2xl space-y-6 text-center">
+      <div className="relative w-full max-w-md bg-white p-6 sm:p-8 rounded-3xl border border-rose-100 shadow-2xl space-y-6 text-center">
         {/* Close Button */}
         <button
           onClick={onClose}
@@ -74,7 +74,7 @@ export default function AuthModal({ isOpen, onClose, onAuthSuccess }) {
         </button>
 
         {/* Brand Icon */}
-        <div className="w-14 h-14 mx-auto rounded-2xl bg-red-600 flex items-center justify-center shadow-xl shadow-red-500/30">
+        <div className="w-14 h-14 mx-auto rounded-2xl bg-gradient-to-tr from-rose-500 to-pink-600 flex items-center justify-center shadow-xl shadow-rose-500/30">
           <ChefHat className="w-8 h-8 text-white font-bold" />
         </div>
 

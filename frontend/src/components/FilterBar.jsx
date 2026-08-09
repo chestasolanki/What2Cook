@@ -25,7 +25,7 @@ export default function FilterBar({ query, setQuery, maxCalories, setMaxCalories
       id="recipe-search-section"
       className={`max-w-4xl mx-auto px-6 mb-8 scroll-mt-6 scroll-reveal ${isRevealed ? 'is-revealed' : ''}`}
     >
-      <div className="bg-white p-6 sm:p-7 rounded-3xl border border-orange-100 shadow-[0_20px_50px_rgba(234,88,12,0.06)] space-y-5">
+      <div className="bg-white p-6 sm:p-7 rounded-3xl border border-rose-100 shadow-[0_20px_50px_rgba(225,29,72,0.05)] space-y-5">
         {/* Search Input Bar */}
         <div className="relative flex items-center">
           <Search className="absolute left-4 w-5 h-5 text-slate-400" />
@@ -35,13 +35,13 @@ export default function FilterBar({ query, setQuery, maxCalories, setMaxCalories
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={handleKeyDown}
             placeholder="Type ingredients you have (e.g. spinach, rice, garlic, tofu)..."
-            className="w-full bg-[#fffcf9] border border-orange-200/80 rounded-full pl-12 pr-32 py-4 text-slate-900 placeholder-slate-400 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20 text-sm sm:text-base font-medium transition-all"
+            className="w-full bg-[#fff5f6] border border-rose-200/80 rounded-full pl-12 pr-32 py-4 text-slate-900 placeholder-slate-400 focus:outline-none focus:border-rose-500 focus:ring-2 focus:ring-rose-500/20 text-sm sm:text-base font-medium transition-all"
           />
 
           <button
             onClick={onSearch}
             disabled={isLoading || !query.trim()}
-            className="absolute right-2 px-6 py-3 rounded-full bg-gradient-to-r from-orange-600 to-red-500 hover:from-orange-500 hover:to-red-400 text-white font-bold text-xs sm:text-sm flex items-center gap-2 shadow-lg shadow-orange-500/25 disabled:opacity-50 disabled:cursor-not-allowed transition-all cursor-pointer hover:scale-105"
+            className="absolute right-2 px-6 py-3 rounded-full bg-gradient-to-r from-rose-500 to-pink-600 hover:from-rose-600 hover:to-pink-700 text-white font-bold text-xs sm:text-sm flex items-center gap-2 shadow-lg shadow-rose-500/25 disabled:opacity-50 disabled:cursor-not-allowed transition-all cursor-pointer hover:scale-105"
           >
             {isLoading ? (
               <>
@@ -65,7 +65,7 @@ export default function FilterBar({ query, setQuery, maxCalories, setMaxCalories
               <button
                 key={idx}
                 onClick={() => { setQuery(pill); }}
-                className="px-3.5 py-1.5 rounded-full bg-orange-50 hover:bg-orange-100 border border-orange-100 text-orange-900 font-semibold transition-all cursor-pointer hover:scale-105"
+                className="px-3.5 py-1.5 rounded-full bg-rose-50 hover:bg-rose-100 border border-rose-100 text-rose-900 font-semibold transition-all cursor-pointer hover:scale-105"
               >
                 + {pill}
               </button>
@@ -87,14 +87,14 @@ export default function FilterBar({ query, setQuery, maxCalories, setMaxCalories
         </div>
 
         {/* Sliders for Nutrition Metadata Filtering */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-3 border-t border-orange-100">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-3 border-t border-rose-100">
           {/* Max Calories Slider */}
-          <div className="space-y-2 bg-[#fffcf9] p-3.5 rounded-2xl border border-orange-100">
+          <div className="space-y-2 bg-[#fff5f6] p-3.5 rounded-2xl border border-rose-100">
             <div className="flex items-center justify-between text-xs">
               <span className="flex items-center gap-1.5 text-slate-700 font-semibold">
-                <Flame className="w-4 h-4 text-orange-500" /> Max Calories:
+                <Flame className="w-4 h-4 text-rose-500" /> Max Calories:
               </span>
-              <span className="font-bold text-orange-600 font-mono">
+              <span className="font-bold text-rose-600 font-mono">
                 {maxCalories ? `${maxCalories} kcal` : 'Any Calories'}
               </span>
             </div>
@@ -105,17 +105,17 @@ export default function FilterBar({ query, setQuery, maxCalories, setMaxCalories
               step="50"
               value={maxCalories || 1000}
               onChange={(e) => setMaxCalories(parseInt(e.target.value) === 1000 ? null : parseInt(e.target.value))}
-              className="w-full h-1.5 bg-orange-100 rounded-lg appearance-none cursor-pointer accent-orange-500"
+              className="w-full h-1.5 bg-rose-200 rounded-lg appearance-none cursor-pointer accent-rose-500"
             />
           </div>
 
           {/* Min Protein Slider */}
-          <div className="space-y-2 bg-[#fffcf9] p-3.5 rounded-2xl border border-orange-100">
+          <div className="space-y-2 bg-[#fff5f6] p-3.5 rounded-2xl border border-rose-100">
             <div className="flex items-center justify-between text-xs">
               <span className="flex items-center gap-1.5 text-slate-700 font-semibold">
-                <Dumbbell className="w-4 h-4 text-orange-600" /> Min Protein:
+                <Dumbbell className="w-4 h-4 text-rose-600" /> Min Protein:
               </span>
-              <span className="font-bold text-orange-600 font-mono">
+              <span className="font-bold text-rose-600 font-mono">
                 {minProtein ? `${minProtein}g protein` : 'Any Protein'}
               </span>
             </div>
@@ -126,7 +126,7 @@ export default function FilterBar({ query, setQuery, maxCalories, setMaxCalories
               step="5"
               value={minProtein || 0}
               onChange={(e) => setMinProtein(parseInt(e.target.value) === 0 ? null : parseInt(e.target.value))}
-              className="w-full h-1.5 bg-orange-100 rounded-lg appearance-none cursor-pointer accent-orange-600"
+              className="w-full h-1.5 bg-rose-200 rounded-lg appearance-none cursor-pointer accent-rose-600"
             />
           </div>
         </div>

@@ -71,7 +71,7 @@ export default function FloatingChatbot({ user, onSelectRecipe, onOpenAuth }) {
       {/* Pure Circular Chat Icon Floating Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-gradient-to-r from-orange-600 to-red-500 hover:from-orange-500 hover:to-red-400 text-white shadow-[0_15px_35px_rgba(234,88,12,0.45)] flex items-center justify-center transition-all duration-300 cursor-pointer hover:scale-110 border-2 border-white group"
+        className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-gradient-to-r from-rose-500 to-pink-600 hover:from-rose-600 hover:to-pink-700 text-white shadow-[0_15px_35px_rgba(225,29,72,0.4)] flex items-center justify-center transition-all duration-300 cursor-pointer hover:scale-110 border-2 border-white group"
         title="What2Cook AI Assistant"
       >
         <div className="relative flex items-center justify-center">
@@ -86,9 +86,9 @@ export default function FloatingChatbot({ user, onSelectRecipe, onOpenAuth }) {
 
       {/* Floating Chatbot Window / Drawer Modal */}
       {isOpen && (
-        <div className="fixed bottom-24 right-6 z-50 w-full max-w-sm sm:max-w-md h-[520px] bg-white rounded-3xl border border-orange-100 shadow-[0_25px_60px_rgba(0,0,0,0.2)] flex flex-col overflow-hidden animate-fadeIn">
+        <div className="fixed bottom-24 right-6 z-50 w-full max-w-sm sm:max-w-md h-[520px] bg-white rounded-3xl border border-rose-100 shadow-[0_25px_60px_rgba(0,0,0,0.2)] flex flex-col overflow-hidden animate-fadeIn">
           {/* Header */}
-          <div className="p-4 bg-gradient-to-r from-orange-600 to-red-500 text-white flex items-center justify-between shadow-md">
+          <div className="p-4 bg-gradient-to-r from-rose-500 to-pink-600 text-white flex items-center justify-between shadow-md">
             <div className="flex items-center gap-3">
               <div className="w-9 h-9 rounded-2xl bg-white/20 flex items-center justify-center backdrop-blur-md">
                 <Bot className="w-5 h-5 text-white" />
@@ -111,7 +111,7 @@ export default function FloatingChatbot({ user, onSelectRecipe, onOpenAuth }) {
           </div>
 
           {/* Messages Body */}
-          <div className="flex-1 p-4 overflow-y-auto space-y-3 bg-[#fdf8f5] text-xs">
+          <div className="flex-1 p-4 overflow-y-auto space-y-3 bg-[#fafafa] text-xs">
             {messages.map((msg, idx) => (
               <div
                 key={idx}
@@ -120,8 +120,8 @@ export default function FloatingChatbot({ user, onSelectRecipe, onOpenAuth }) {
                 <div
                   className={`p-3.5 rounded-2xl max-w-[85%] leading-relaxed ${
                     msg.role === 'user'
-                      ? 'bg-orange-600 text-white font-medium rounded-br-none shadow-sm'
-                      : 'bg-white text-slate-800 border border-orange-100 font-normal rounded-bl-none shadow-sm'
+                      ? 'bg-rose-600 text-white font-medium rounded-br-none shadow-sm'
+                      : 'bg-white text-slate-800 border border-rose-100 font-normal rounded-bl-none shadow-sm'
                   }`}
                 >
                   {msg.content}
@@ -143,10 +143,10 @@ export default function FloatingChatbot({ user, onSelectRecipe, onOpenAuth }) {
                             onSelectRecipe(src);
                             setIsOpen(false);
                           }}
-                          className="bg-white hover:bg-orange-50 p-2 rounded-xl border border-orange-100 text-slate-800 text-[11px] font-bold flex items-center justify-between cursor-pointer transition-colors shadow-xs"
+                          className="bg-white hover:bg-rose-50 p-2 rounded-xl border border-rose-100 text-slate-800 text-[11px] font-bold flex items-center justify-between cursor-pointer transition-colors shadow-xs"
                         >
                           <span className="truncate max-w-[180px]">{src.title}</span>
-                          <span className="text-[10px] text-orange-600 font-mono font-bold">View</span>
+                          <span className="text-[10px] text-rose-600 font-mono font-bold">View</span>
                         </div>
                       ))}
                     </div>
@@ -157,19 +157,19 @@ export default function FloatingChatbot({ user, onSelectRecipe, onOpenAuth }) {
           </div>
 
           {/* Input Footer */}
-          <form onSubmit={handleSend} className="p-3 bg-white border-t border-orange-100 flex items-center gap-2">
+          <form onSubmit={handleSend} className="p-3 bg-white border-t border-rose-100 flex items-center gap-2">
             <input
               type="text"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Ask anything or type ingredients..."
-              className="flex-1 bg-slate-50 border border-slate-200 rounded-full px-4 py-2.5 text-xs text-slate-900 placeholder-slate-400 focus:outline-none focus:border-orange-500 font-medium"
+              className="flex-1 bg-slate-50 border border-slate-200 rounded-full px-4 py-2.5 text-xs text-slate-900 placeholder-slate-400 focus:outline-none focus:border-rose-500 font-medium"
             />
 
             <button
               type="submit"
               disabled={isLoading || !query.trim()}
-              className="p-2.5 rounded-full bg-orange-600 hover:bg-orange-700 text-white disabled:opacity-40 transition-all shadow-md cursor-pointer shrink-0"
+              className="p-2.5 rounded-full bg-rose-600 hover:bg-rose-700 text-white disabled:opacity-40 transition-all shadow-md cursor-pointer shrink-0"
             >
               <Send className="w-4 h-4" />
             </button>

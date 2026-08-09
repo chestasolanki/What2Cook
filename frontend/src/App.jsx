@@ -164,7 +164,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#fdf8f5] text-slate-800 font-sans flex flex-col">
+    <div className="min-h-screen bg-[#fafafa] text-slate-800 font-sans flex flex-col">
       <Navbar
         user={user}
         savedCount={savedRecipes.length}
@@ -203,7 +203,7 @@ export default function App() {
         />
       </main>
 
-      {/* Floating Bottom Left Chatbot Assistant */}
+      {/* Floating Bottom Right Chatbot Assistant */}
       <FloatingChatbot
         user={user}
         onSelectRecipe={(recipe) => setSelectedRecipe(recipe)}
@@ -238,7 +238,7 @@ export default function App() {
       />
 
       {/* Footer */}
-      <footer className="glass-panel border-t border-orange-100 py-6 text-center text-xs text-slate-500">
+      <footer className="glass-panel border-t border-rose-100 py-6 text-center text-xs text-slate-500">
         <p>What2Cook — Recipe & Nutrition Assistant</p>
       </footer>
     </div>

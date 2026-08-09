@@ -34,13 +34,13 @@ export default function PopularRecipesGrid({ recipes = [], savedRecipes = [], on
 
   const displayRecipes = recipes && recipes.length > 0 ? recipes : samplePopular;
 
-  // Foody Dribbble Carousel Card Color Schemes from Screenshot
+  // Minimalist Slate & Rose Pill Card Color Themes from Screenshot
   const cardThemes = [
-    { bg: 'bg-[#e15b64]', border: 'border-[#ff7a83]', text: 'text-white' }, // Pastel Crimson Pink
-    { bg: 'bg-[#f47c36]', border: 'border-[#ff9453]', text: 'text-white' }, // Warm Orange
-    { bg: 'bg-[#52c41a]', border: 'border-[#73d13d]', text: 'text-white' }, // Fresh Green
-    { bg: 'bg-[#6563ff]', border: 'border-[#8583ff]', text: 'text-white' }, // Vibrant Purple
-    { bg: 'bg-[#ea580c]', border: 'border-[#f97316]', text: 'text-white' }, // Terracotta
+    { bg: 'bg-[#e11d48]', border: 'border-[#f43f5e]', text: 'text-white' }, // Rose Pink
+    { bg: 'bg-[#be123c]', border: 'border-[#e11d48]', text: 'text-white' }, // Deep Rose
+    { bg: 'bg-[#059669]', border: 'border-[#10b981]', text: 'text-white' }, // Fresh Emerald
+    { bg: 'bg-[#7c3aed]', border: 'border-[#8b5cf6]', text: 'text-white' }, // Violet
+    { bg: 'bg-[#e11d48]', border: 'border-[#f43f5e]', text: 'text-white' }, // Crimson Rose
     { bg: 'bg-[#0284c7]', border: 'border-[#38bdf8]', text: 'text-white' }  // Ocean Blue
   ];
 
@@ -74,7 +74,7 @@ export default function PopularRecipesGrid({ recipes = [], savedRecipes = [], on
     >
       {/* Section Header */}
       <div className="text-center space-y-2 max-w-2xl mx-auto">
-        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-orange-100 border border-orange-200 text-orange-700 text-xs font-bold uppercase tracking-wider">
+        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-rose-100 border border-rose-200 text-rose-700 text-xs font-bold uppercase tracking-wider">
           <Sparkles className="w-3.5 h-3.5" />
           <span>Top Culinary Dishes</span>
         </div>
@@ -87,11 +87,11 @@ export default function PopularRecipesGrid({ recipes = [], savedRecipes = [], on
       </div>
 
       {/* Dribbble Ticket Container with Side Notch Cutouts & Carousel Navigation */}
-      <div className="relative bg-white rounded-[40px] border border-orange-100/80 shadow-[0_25px_60px_rgba(234,88,12,0.08)] p-6 sm:p-10 pt-16">
+      <div className="relative bg-white rounded-[40px] border border-rose-100/80 shadow-[0_25px_60px_rgba(225,29,72,0.06)] p-6 sm:p-10 pt-16">
         {/* Left Arrow Navigation Button */}
         <button
           onClick={handlePrev}
-          className="absolute -left-5 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white border border-slate-200 text-slate-700 hover:text-orange-600 hover:border-orange-300 shadow-xl flex items-center justify-center transition-all cursor-pointer hover:scale-110 z-20"
+          className="absolute -left-5 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white border border-slate-200 text-slate-700 hover:text-rose-600 hover:border-rose-300 shadow-xl flex items-center justify-center transition-all cursor-pointer hover:scale-110 z-20"
           title="Previous Dishes"
         >
           <ChevronLeft className="w-6 h-6 stroke-[2.5]" />
@@ -100,7 +100,7 @@ export default function PopularRecipesGrid({ recipes = [], savedRecipes = [], on
         {/* Right Arrow Navigation Button */}
         <button
           onClick={handleNext}
-          className="absolute -right-5 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white border border-slate-200 text-slate-700 hover:text-orange-600 hover:border-orange-300 shadow-xl flex items-center justify-center transition-all cursor-pointer hover:scale-110 z-20"
+          className="absolute -right-5 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white border border-slate-200 text-slate-700 hover:text-rose-600 hover:border-rose-300 shadow-xl flex items-center justify-center transition-all cursor-pointer hover:scale-110 z-20"
           title="Next Dishes"
         >
           <ChevronRight className="w-6 h-6 stroke-[2.5]" />
