@@ -22,15 +22,26 @@ const API_BASE = envUrl;
 async function parseJsonResponse(res) {
   const contentType = res.headers.get('content-type');
   if (contentType && contentType.includes('application/json')) {
-    return res.json();
+    const data = await res.json();
+    if (!res.ok) {
+      throw new Error(data.error || data.message || `API Error ${res.status}`);
+    }
+    return data;
   }
   const text = await res.text();
   if (text.trim().startsWith('<')) {
     throw new Error('Received HTML response instead of API JSON. Please check backend VITE_API_BASE_URL URL setting.');
   }
   try {
-    return JSON.parse(text);
-  } catch {
+    const data = JSON.parse(text);
+    if (!res.ok) {
+      throw new Error(data.error || data.message || `API Error ${res.status}`);
+    }
+    return data;
+  } catch (err) {
+    if (err.message && !err.message.startsWith('API Error')) {
+      throw err;
+    }
     throw new Error(`API Error ${res.status}: ${text || 'Unknown response'}`);
   }
 }

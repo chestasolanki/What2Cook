@@ -26,8 +26,9 @@ function getAllUsers() {
 }
 
 function findUserByEmail(email) {
+  if (!email) return null;
   const users = getAllUsers();
-  return users.find(u => u.email.toLowerCase() === email.toLowerCase());
+  return users.find(u => u.email && u.email.toLowerCase() === email.toLowerCase());
 }
 
 function findUserById(id) {
