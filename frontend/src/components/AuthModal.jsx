@@ -8,6 +8,28 @@ export default function AuthModal({ isOpen, onClose, onAuthSuccess }) {
   const [error, setError] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
 
+  const handleGoogleResponse = async (response) => {
+    if (!response || !response.credential) return;
+    setIsSubmitting(true);
+    setError('');
+
+    try {
+      console.log('Google Auth Credential Received, sending to backend...');
+      const data = await loginWithGoogleApi(response.credential);
+      if (data && data.user) {
+        onAuthSuccess(data.user, data.token);
+        onClose();
+      } else {
+        throw new Error(data.error || 'Failed to retrieve user profile');
+      }
+    } catch (err) {
+      console.error('Google Sign-In Error:', err);
+      setError(err.message || 'Real Google Sign-In failed');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   useEffect(() => {
     if (!isOpen) return;
 
@@ -44,24 +66,6 @@ export default function AuthModal({ isOpen, onClose, onAuthSuccess }) {
       if (script.parentNode) script.parentNode.removeChild(script);
     };
   }, [isOpen]);
-
-  const handleGoogleResponse = async (response) => {
-    if (!response.credential) return;
-    setIsSubmitting(true);
-    setError('');
-
-    try {
-      // Send real Google ID Token to backend for verification
-      const data = await loginWithGoogleApi(response.credential);
-      onAuthSuccess(data.user, data.token);
-      onClose();
-    } catch (err) {
-      console.error('Google Sign-In Error:', err);
-      setError(err.message || 'Real Google Sign-In failed');
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
 
   if (!isOpen) return null;
 
