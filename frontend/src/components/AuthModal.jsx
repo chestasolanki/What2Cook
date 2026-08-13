@@ -20,7 +20,10 @@ export default function AuthModal({ isOpen, onClose, onAuthSuccess }) {
       if (window.google?.accounts?.id && GOOGLE_CLIENT_ID) {
         window.google.accounts.id.initialize({
           client_id: GOOGLE_CLIENT_ID,
-          callback: handleGoogleResponse
+          callback: handleGoogleResponse,
+          ux_mode: 'popup',
+          auto_select: false,
+          cancel_on_tap_outside: true
         });
 
         const btnDiv = document.getElementById('googleSignInBtn');
