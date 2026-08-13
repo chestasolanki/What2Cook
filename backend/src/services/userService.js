@@ -20,9 +20,14 @@ function ensureUsersFile() {
 }
 
 function getAllUsers() {
-  ensureUsersFile();
-  const rawData = fs.readFileSync(userDataPath, 'utf-8');
-  return JSON.parse(rawData);
+  try {
+    ensureUsersFile();
+    const rawData = fs.readFileSync(userDataPath, 'utf-8');
+    return JSON.parse(rawData);
+  } catch (err) {
+    console.warn('Error reading users file, returning empty array:', err.message);
+    return [];
+  }
 }
 
 function findUserByEmail(email) {
