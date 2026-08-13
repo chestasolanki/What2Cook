@@ -15,10 +15,19 @@ app.use((req, res, next) => {
   next();
 });
 
+// Health check endpoints
+app.get('/', (req, res) => res.json({ status: 'ok', message: 'PantryChef Backend API Operational' }));
+app.get('/api', (req, res) => res.json({ status: 'ok', message: 'PantryChef API Operational' }));
+
 // Mount Routes
 app.use('/api/recipes', recipeRoutes);
 app.use('/api/chat', chatRoutes);
 app.use('/api/saved-recipes', savedRecipeRoutes);
 app.use('/api/auth', authRoutes);
+
+// Fallback JSON 404 Handler (prevents HTML responses on invalid endpoints)
+app.use((req, res) => {
+  res.status(404).json({ error: 'API Endpoint Not Found' });
+});
 
 module.exports = app;
