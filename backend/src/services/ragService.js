@@ -63,13 +63,22 @@ async function generateStreamedRAGResponse(userQuery, searchOptions, res) {
   // 2. Build Augmented Prompt
   const { systemPrompt, sources } = buildRAGPrompt(userQuery, searchResults);
 
-  // 3. Set SSE Headers for real-time streaming
+  // 3. Set SSE Headers for real-time streaming (X-Accel-Buffering: no forces proxy to stream immediately)
   res.setHeader('Content-Type', 'text/event-stream');
-  res.setHeader('Cache-Control', 'no-cache');
+  res.setHeader('Cache-Control', 'no-cache, no-transform');
   res.setHeader('Connection', 'keep-alive');
+  res.setHeader('X-Accel-Buffering', 'no');
 
   // Send sources metadata event first
   res.write(`data: ${JSON.stringify({ type: 'sources', sources })}\n\n`);
+
+  const apiKey = process.env.GROQ_API_KEY;
+  if (!apiKey || apiKey === 'dummy_groq_key') {
+    const fallbackText = "⚠️ GROQ_API_KEY is not set in Render environment variables. Please add GROQ_API_KEY in Render Dashboard to enable live AI responses.";
+    res.write(`data: ${JSON.stringify({ type: 'token', text: fallbackText })}\n\n`);
+    res.write(`data: ${JSON.stringify({ type: 'done' })}\n\n`);
+    return res.end();
+  }
 
   try {
     const groq = getGroqClient();
@@ -96,7 +105,8 @@ async function generateStreamedRAGResponse(userQuery, searchOptions, res) {
     res.end();
   } catch (error) {
     console.error("Groq RAG Streaming Error:", error);
-    res.write(`data: ${JSON.stringify({ type: 'error', message: 'Failed to stream response' })}\n\n`);
+    const errDesc = error.message || 'Failed to stream response';
+    res.write(`data: ${JSON.stringify({ type: 'error', message: `Groq Error: ${errDesc}` })}\n\n`);
     res.end();
   }
 }

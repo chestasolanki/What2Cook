@@ -17,44 +17,51 @@ async function initializeSearchEngine() {
     return;
   }
 
-  // 1. Initialize BM25 Keyword Search
-  miniSearchInstance = new MiniSearch({
-    fields: ['title', 'ingredients', 'tags', 'cuisine'],
-    storeFields: ['id', 'title', 'cuisine', 'nutrition', 'ingredients', 'instructions'],
-    extractField: (document, fieldName) => {
-      if (fieldName === 'ingredients') {
-        return Array.isArray(document.ingredients) ? document.ingredients.join(' ') : '';
+  // 1. Initialize BM25 Keyword Search (Instant)
+  if (!miniSearchInstance) {
+    miniSearchInstance = new MiniSearch({
+      fields: ['title', 'ingredients', 'tags', 'cuisine'],
+      storeFields: ['id', 'title', 'cuisine', 'nutrition', 'ingredients', 'instructions'],
+      extractField: (document, fieldName) => {
+        if (fieldName === 'ingredients') {
+          return Array.isArray(document.ingredients) ? document.ingredients.join(' ') : '';
+        }
+        if (fieldName === 'tags') {
+          return Array.isArray(document.tags) ? document.tags.join(' ') : '';
+        }
+        return document[fieldName];
       }
-      if (fieldName === 'tags') {
-        return Array.isArray(document.tags) ? document.tags.join(' ') : '';
+    });
+
+    miniSearchInstance.addAll(recipes);
+    console.log(`✅ BM25 Keyword Index built instantly for ${recipes.length} recipes.`);
+  }
+
+  // 2. Initialize Embeddings Pipeline in background (Non-blocking)
+  if (!pipelineInstance) {
+    (async () => {
+      try {
+        const { pipeline } = await import('@xenova/transformers');
+        pipelineInstance = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
+        
+        console.log("⏳ Computing vector embeddings for recipes...");
+        
+        const tempEmbeddings = [];
+        for (const recipe of recipes) {
+          const textToEmbed = `${recipe.title}. Ingredients: ${recipe.ingredients.join(', ')}`;
+          const output = await pipelineInstance(textToEmbed, { pooling: 'mean', normalize: true });
+          tempEmbeddings.push({
+            id: recipe.id,
+            recipe,
+            vector: Array.from(output.data)
+          });
+        }
+        recipeEmbeddings = tempEmbeddings;
+        console.log(`✅ Computed ${recipeEmbeddings.length} vector embeddings.`);
+      } catch (err) {
+        console.warn("⚠️ Could not load local transformers model, using BM25 search:", err.message);
       }
-      return document[fieldName];
-    }
-  });
-
-  miniSearchInstance.addAll(recipes);
-  console.log(`✅ BM25 Keyword Index built for ${recipes.length} recipes.`);
-
-  // 2. Initialize Embeddings Pipeline (Local Feature Extraction)
-  try {
-    const { pipeline } = await import('@xenova/transformers');
-    pipelineInstance = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
-    
-    console.log("⏳ Computing vector embeddings for recipes...");
-    
-    recipeEmbeddings = [];
-    for (const recipe of recipes) {
-      const textToEmbed = `${recipe.title}. Ingredients: ${recipe.ingredients.join(', ')}`;
-      const output = await pipelineInstance(textToEmbed, { pooling: 'mean', normalize: true });
-      recipeEmbeddings.push({
-        id: recipe.id,
-        recipe,
-        vector: Array.from(output.data)
-      });
-    }
-    console.log(`✅ Computed ${recipeEmbeddings.length} vector embeddings.`);
-  } catch (err) {
-    console.warn("⚠️ Could not load local transformers model, falling back to BM25 search:", err.message);
+    })();
   }
 }
 
