@@ -90,8 +90,13 @@ async function hybridSearch(query, options = {}) {
 
   const { maxCalories, minProtein, isVegetarian, topK = 5 } = options;
 
-  // 1. BM25 Keyword Search
-  const bm25Results = miniSearchInstance.search(query, { fuzzy: 0.2 });
+  // 1. BM25 Keyword Search with field weighting
+  const bm25Results = miniSearchInstance.search(query, {
+    boost: { title: 5, ingredients: 3, tags: 2, cuisine: 1 },
+    fuzzy: 0.2,
+    prefix: true,
+    combineWith: 'OR'
+  });
 
   // 2. Vector Search
   let vectorResults = [];
@@ -106,7 +111,7 @@ async function hybridSearch(query, options = {}) {
     })).sort((a, b) => b.score - a.score);
   }
 
-  // 3. Reciprocal Rank Fusion (RRF) Algorithm
+  // 3. Reciprocal Rank Fusion (RRF) Algorithm & Direct Keyword Boosting
   const RRF_K = 60;
   const rrfScores = new Map();
 
@@ -120,8 +125,27 @@ async function hybridSearch(query, options = {}) {
     rrfScores.set(item.id, (rrfScores.get(item.id) || 0) + rrfScore);
   });
 
+  // Direct exact ingredient/title query keyword boost
+  const queryTerms = query.toLowerCase().split(/[,\s]+/).filter(t => t.length > 2);
   const allRecipes = recipeService.getAllRecipes();
   const recipeMap = new Map(allRecipes.map(r => [r.id, r]));
+
+  // Boost recipes that match specific requested ingredients or titles directly
+  allRecipes.forEach(recipe => {
+    const titleText = (recipe.title || '').toLowerCase();
+    const ingText = Array.isArray(recipe.ingredients) ? recipe.ingredients.join(' ').toLowerCase() : '';
+    
+    let matchCount = 0;
+    queryTerms.forEach(term => {
+      if (titleText.includes(term)) matchCount += 3;
+      else if (ingText.includes(term)) matchCount += 1;
+    });
+
+    if (matchCount > 0) {
+      const currentScore = rrfScores.get(recipe.id) || 0;
+      rrfScores.set(recipe.id, currentScore + (matchCount * 0.5));
+    }
+  });
 
   const NON_VEG_WORDS = ['chicken', 'beef', 'pork', 'fish', 'salmon', 'tuna', 'bacon', 'turkey', 'lamb', 'meat', 'shrimp', 'prawn', 'crab', 'anchovy', 'sausage', 'ham', 'steak', 'veal', 'duck'];
 
