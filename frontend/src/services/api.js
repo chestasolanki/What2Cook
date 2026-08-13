@@ -2,7 +2,19 @@
  * API Service for What2Cook Backend
  */
 
-const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api';
+let envUrl = (import.meta.env.VITE_API_BASE_URL || '').trim();
+if (!envUrl) {
+  envUrl = import.meta.env.MODE === 'production'
+    ? 'https://what2cook-5z9z.onrender.com/api'
+    : 'http://localhost:3000/api';
+}
+// Sanitize URL: remove trailing slashes and ensure /api path suffix
+envUrl = envUrl.replace(/\/+$/, '');
+if (!envUrl.endsWith('/api') && !envUrl.includes('/api/')) {
+  envUrl = `${envUrl}/api`;
+}
+
+const API_BASE = envUrl;
 
 /**
  * Safe JSON response parser that catches HTML 404 responses
