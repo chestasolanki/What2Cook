@@ -18179,5 +18179,3064 @@
       "Soup/Stew",
       "Stew"
     ]
+  },
+  {
+    "id": "recipe_ind_501",
+    "title": "Aloo Paratha",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 25,
+    "nutrition": {
+      "calories": 197,
+      "proteinGrams": 6,
+      "carbsGrams": 28,
+      "fatGrams": 7
+    },
+    "ingredients": [
+      "500 g potatoes",
+      "2 tablespoons cooking oil or ghee",
+      "1 medium onion, finely chopped",
+      "2 medium tomatoes, chopped",
+      "1 tablespoon ginger-garlic paste",
+      "1 teaspoon cumin seeds",
+      "1/2 teaspoon turmeric powder",
+      "1 teaspoon red chili powder",
+      "1 teaspoon coriander powder",
+      "1/2 teaspoon garam masala",
+      "1/2 cup plain yogurt or coconut milk, as appropriate",
+      "Salt to taste",
+      "Fresh coriander leaves for garnish"
+    ],
+    "instructions": [
+      "Heat oil or ghee in a heavy pan over medium heat and add cumin seeds.",
+      "Add onion and cook until softened and lightly golden. Add ginger-garlic paste and cook until fragrant.",
+      "Add tomatoes and powdered spices. Cook until the tomatoes soften and the oil begins to separate.",
+      "Add the potatoes, salt, and the yogurt or coconut milk if used. Mix well.",
+      "Cover and cook until the main ingredient is tender and the flavors are well combined. Add a little water if needed.",
+      "Finish with garam masala and fresh coriander. Serve hot with rice, roti, naan, or other suitable Indian accompaniment."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "North",
+      "Dinner",
+      "Main Course",
+      "Homestyle"
+    ]
+  },
+  {
+    "id": "recipe_ind_502",
+    "title": "Gobi Paratha",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 25,
+    "nutrition": {
+      "calories": 214,
+      "proteinGrams": 7,
+      "carbsGrams": 31,
+      "fatGrams": 7
+    },
+    "ingredients": [
+      "500 g mixed vegetables",
+      "2 tablespoons cooking oil or ghee",
+      "1 medium onion, finely chopped",
+      "2 medium tomatoes, chopped",
+      "1 tablespoon ginger-garlic paste",
+      "1 teaspoon cumin seeds",
+      "1/2 teaspoon turmeric powder",
+      "1 teaspoon red chili powder",
+      "1 teaspoon coriander powder",
+      "1/2 teaspoon garam masala",
+      "1/2 cup plain yogurt or coconut milk, as appropriate",
+      "Salt to taste",
+      "Fresh coriander leaves for garnish"
+    ],
+    "instructions": [
+      "Heat oil or ghee in a heavy pan over medium heat and add cumin seeds.",
+      "Add onion and cook until softened and lightly golden. Add ginger-garlic paste and cook until fragrant.",
+      "Add tomatoes and powdered spices. Cook until the tomatoes soften and the oil begins to separate.",
+      "Add the mixed vegetables, salt, and the yogurt or coconut milk if used. Mix well.",
+      "Cover and cook until the main ingredient is tender and the flavors are well combined. Add a little water if needed.",
+      "Finish with garam masala and fresh coriander. Serve hot with rice, roti, naan, or other suitable Indian accompaniment."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "North",
+      "Dinner",
+      "Main Course",
+      "Homestyle"
+    ]
+  },
+  {
+    "id": "recipe_ind_503",
+    "title": "Mooli Paratha",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 25,
+    "nutrition": {
+      "calories": 231,
+      "proteinGrams": 8,
+      "carbsGrams": 32,
+      "fatGrams": 8
+    },
+    "ingredients": [
+      "500 g mixed vegetables",
+      "2 tablespoons cooking oil or ghee",
+      "1 medium onion, finely chopped",
+      "2 medium tomatoes, chopped",
+      "1 tablespoon ginger-garlic paste",
+      "1 teaspoon cumin seeds",
+      "1/2 teaspoon turmeric powder",
+      "1 teaspoon red chili powder",
+      "1 teaspoon coriander powder",
+      "1/2 teaspoon garam masala",
+      "1/2 cup plain yogurt or coconut milk, as appropriate",
+      "Salt to taste",
+      "Fresh coriander leaves for garnish"
+    ],
+    "instructions": [
+      "Heat oil or ghee in a heavy pan over medium heat and add cumin seeds.",
+      "Add onion and cook until softened and lightly golden. Add ginger-garlic paste and cook until fragrant.",
+      "Add tomatoes and powdered spices. Cook until the tomatoes soften and the oil begins to separate.",
+      "Add the mixed vegetables, salt, and the yogurt or coconut milk if used. Mix well.",
+      "Cover and cook until the main ingredient is tender and the flavors are well combined. Add a little water if needed.",
+      "Finish with garam masala and fresh coriander. Serve hot with rice, roti, naan, or other suitable Indian accompaniment."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "North",
+      "Lunch",
+      "Main Course",
+      "Homestyle"
+    ]
+  },
+  {
+    "id": "recipe_ind_504",
+    "title": "Paneer Paratha",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 25,
+    "nutrition": {
+      "calories": 248,
+      "proteinGrams": 9,
+      "carbsGrams": 33,
+      "fatGrams": 9
+    },
+    "ingredients": [
+      "500 g paneer",
+      "2 tablespoons cooking oil or ghee",
+      "1 medium onion, finely chopped",
+      "2 medium tomatoes, chopped",
+      "1 tablespoon ginger-garlic paste",
+      "1 teaspoon cumin seeds",
+      "1/2 teaspoon turmeric powder",
+      "1 teaspoon red chili powder",
+      "1 teaspoon coriander powder",
+      "1/2 teaspoon garam masala",
+      "1/2 cup plain yogurt or coconut milk, as appropriate",
+      "Salt to taste",
+      "Fresh coriander leaves for garnish"
+    ],
+    "instructions": [
+      "Heat oil or ghee in a heavy pan over medium heat and add cumin seeds.",
+      "Add onion and cook until softened and lightly golden. Add ginger-garlic paste and cook until fragrant.",
+      "Add tomatoes and powdered spices. Cook until the tomatoes soften and the oil begins to separate.",
+      "Add the paneer, salt, and the yogurt or coconut milk if used. Mix well.",
+      "Cover and cook until the main ingredient is tender and the flavors are well combined. Add a little water if needed.",
+      "Finish with garam masala and fresh coriander. Serve hot with rice, roti, naan, or other suitable Indian accompaniment."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "North",
+      "Dinner",
+      "Main Course",
+      "Homestyle"
+    ]
+  },
+  {
+    "id": "recipe_ind_505",
+    "title": "Palak Paneer",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 25,
+    "nutrition": {
+      "calories": 514,
+      "proteinGrams": 21,
+      "carbsGrams": 47,
+      "fatGrams": 27
+    },
+    "ingredients": [
+      "500 g paneer",
+      "spinach",
+      "spices",
+      "ghee",
+      "tomatoes",
+      "onion"
+    ],
+    "instructions": [
+      "Mix ingredients and cook into Palak Paneer curry."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "spinach"
+    ]
+  },
+  {
+    "id": "recipe_ind_506",
+    "title": "Paneer Butter Masala",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 25,
+    "nutrition": {
+      "calories": 205,
+      "proteinGrams": 25,
+      "carbsGrams": 10,
+      "fatGrams": 8
+    },
+    "ingredients": [
+      "500 g paneer",
+      "butter",
+      "cream",
+      "tomatoes",
+      "spices"
+    ],
+    "instructions": [
+      "Cook Paneer Butter Masala curry."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "creamy"
+    ]
+  },
+  {
+    "id": "recipe_ind_507",
+    "title": "Chole Bhature",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 25,
+    "nutrition": {
+      "calories": 293,
+      "proteinGrams": 7,
+      "carbsGrams": 26,
+      "fatGrams": 18
+    },
+    "ingredients": [
+      "chickpeas",
+      "bhatura flour",
+      "spices",
+      "onion",
+      "tomatoes"
+    ],
+    "instructions": [
+      "Cook Chole Bhature chickpea meal."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Punjabi"
+    ]
+  },
+  {
+    "id": "recipe_ind_508",
+    "title": "Rajma Chawal",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 25,
+    "nutrition": {
+      "calories": 310,
+      "proteinGrams": 8,
+      "carbsGrams": 27,
+      "fatGrams": 19
+    },
+    "ingredients": [
+      "kidney beans",
+      "basmati rice",
+      "spices",
+      "onion",
+      "tomatoes"
+    ],
+    "instructions": [
+      "Cook Rajma Chawal kidney bean rice meal."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Punjabi"
+    ]
+  },
+  {
+    "id": "recipe_ind_509",
+    "title": "Dal Makhani",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 25,
+    "nutrition": {
+      "calories": 327,
+      "proteinGrams": 9,
+      "carbsGrams": 28,
+      "fatGrams": 20
+    },
+    "ingredients": [
+      "black lentils",
+      "kidney beans",
+      "butter",
+      "cream",
+      "spices"
+    ],
+    "instructions": [
+      "Cook Dal Makhani lentil curry."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Punjabi"
+    ]
+  },
+  {
+    "id": "recipe_ind_510",
+    "title": "Masala Dosa",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 25,
+    "nutrition": {
+      "calories": 364,
+      "proteinGrams": 14,
+      "carbsGrams": 64,
+      "fatGrams": 6
+    },
+    "ingredients": [
+      "dosa batter",
+      "potato masala",
+      "mustard seeds",
+      "curry leaves"
+    ],
+    "instructions": [
+      "Cook Masala Dosa crepe."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "South"
+    ]
+  },
+  {
+    "id": "recipe_ind_511",
+    "title": "Idli",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 25,
+    "nutrition": {
+      "calories": 483,
+      "proteinGrams": 22,
+      "carbsGrams": 74,
+      "fatGrams": 11
+    },
+    "ingredients": [
+      "rice",
+      "urad dal",
+      "salt"
+    ],
+    "instructions": [
+      "Steam Idli cakes."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "South"
+    ]
+  },
+  {
+    "id": "recipe_ind_512",
+    "title": "Butter Chicken",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 25,
+    "nutrition": {
+      "calories": 496,
+      "proteinGrams": 30,
+      "carbsGrams": 31,
+      "fatGrams": 28
+    },
+    "ingredients": [
+      "500 g chicken",
+      "butter",
+      "cream",
+      "tomatoes",
+      "spices"
+    ],
+    "instructions": [
+      "Cook Butter Chicken."
+    ],
+    "tags": [
+      "Indian",
+      "Non-Vegetarian",
+      "Punjabi"
+    ]
+  },
+  {
+    "id": "recipe_ind_513",
+    "title": "Chicken Biryani",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 25,
+    "nutrition": {
+      "calories": 360,
+      "proteinGrams": 21,
+      "carbsGrams": 20,
+      "fatGrams": 22
+    },
+    "ingredients": [
+      "500 g chicken",
+      "basmati rice",
+      "biryani spices",
+      "yogurt",
+      "saffron"
+    ],
+    "instructions": [
+      "Cook Chicken Biryani."
+    ],
+    "tags": [
+      "Indian",
+      "Non-Vegetarian"
+    ]
+  },
+  {
+    "id": "recipe_ind_514",
+    "title": "Pav Bhaji",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 25,
+    "nutrition": {
+      "calories": 503,
+      "proteinGrams": 26,
+      "carbsGrams": 57,
+      "fatGrams": 19
+    },
+    "ingredients": [
+      "mixed vegetables",
+      "pav bread",
+      "butter",
+      "pav bhaji masala"
+    ],
+    "instructions": [
+      "Cook Pav Bhaji."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Mumbai"
+    ]
+  },
+  {
+    "id": "recipe_ind_515",
+    "title": "Lachha Paratha",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 265,
+      "proteinGrams": 11,
+      "carbsGrams": 33,
+      "fatGrams": 10
+    },
+    "ingredients": [
+      "wheat flour",
+      "ghee",
+      "carom seeds",
+      "salt"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Lachha Paratha.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "layered"
+    ]
+  },
+  {
+    "id": "recipe_ind_516",
+    "title": "Missi Roti",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 282,
+      "proteinGrams": 12,
+      "carbsGrams": 36,
+      "fatGrams": 10
+    },
+    "ingredients": [
+      "gram flour",
+      "wheat flour",
+      "spices",
+      "ghee"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Missi Roti.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Rajasthani"
+    ]
+  },
+  {
+    "id": "recipe_ind_517",
+    "title": "Bajra Roti",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 299,
+      "proteinGrams": 13,
+      "carbsGrams": 37,
+      "fatGrams": 11
+    },
+    "ingredients": [
+      "pearl millet flour",
+      "water",
+      "ghee"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Bajra Roti.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "millet"
+    ]
+  },
+  {
+    "id": "recipe_ind_518",
+    "title": "Jowar Roti",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 316,
+      "proteinGrams": 14,
+      "carbsGrams": 38,
+      "fatGrams": 12
+    },
+    "ingredients": [
+      "sorghum flour",
+      "warm water",
+      "ghee"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Jowar Roti.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "sorghum"
+    ]
+  },
+  {
+    "id": "recipe_ind_519",
+    "title": "Makki di Roti",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 333,
+      "proteinGrams": 15,
+      "carbsGrams": 41,
+      "fatGrams": 12
+    },
+    "ingredients": [
+      "cornmeal flour",
+      "warm water",
+      "ghee"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Makki di Roti.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Punjabi"
+    ]
+  },
+  {
+    "id": "recipe_ind_520",
+    "title": "Naan",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 350,
+      "proteinGrams": 16,
+      "carbsGrams": 42,
+      "fatGrams": 13
+    },
+    "ingredients": [
+      "refined flour",
+      "yogurt",
+      "yeast",
+      "butter"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Naan.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Indian"
+    ]
+  },
+  {
+    "id": "recipe_ind_521",
+    "title": "Butter Naan",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 367,
+      "proteinGrams": 17,
+      "carbsGrams": 43,
+      "fatGrams": 14
+    },
+    "ingredients": [
+      "flour",
+      "butter",
+      "yogurt",
+      "nigella seeds"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Butter Naan.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Indian"
+    ]
+  },
+  {
+    "id": "recipe_ind_522",
+    "title": "Garlic Naan",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 384,
+      "proteinGrams": 18,
+      "carbsGrams": 47,
+      "fatGrams": 14
+    },
+    "ingredients": [
+      "flour",
+      "garlic",
+      "butter",
+      "coriander"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Garlic Naan.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Indian"
+    ]
+  },
+  {
+    "id": "recipe_ind_523",
+    "title": "Tandoori Roti",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 401,
+      "proteinGrams": 19,
+      "carbsGrams": 48,
+      "fatGrams": 15
+    },
+    "ingredients": [
+      "whole wheat flour",
+      "yogurt",
+      "ghee"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Tandoori Roti.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "tandoor"
+    ]
+  },
+  {
+    "id": "recipe_ind_524",
+    "title": "Puri",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 418,
+      "proteinGrams": 20,
+      "carbsGrams": 49,
+      "fatGrams": 16
+    },
+    "ingredients": [
+      "wheat flour",
+      "oil for frying",
+      "salt"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Puri.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "deep-fried"
+    ]
+  },
+  {
+    "id": "recipe_ind_525",
+    "title": "Bhatura",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 435,
+      "proteinGrams": 22,
+      "carbsGrams": 49,
+      "fatGrams": 17
+    },
+    "ingredients": [
+      "flour",
+      "yogurt",
+      "oil",
+      "baking powder"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Bhatura.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Punjabi"
+    ]
+  },
+  {
+    "id": "recipe_ind_526",
+    "title": "Kachori",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 452,
+      "proteinGrams": 23,
+      "carbsGrams": 52,
+      "fatGrams": 17
+    },
+    "ingredients": [
+      "flour",
+      "spiced moong dal",
+      "oil"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Kachori.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "stuffed"
+    ]
+  },
+  {
+    "id": "recipe_ind_527",
+    "title": "Bedmi Puri",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 469,
+      "proteinGrams": 24,
+      "carbsGrams": 53,
+      "fatGrams": 18
+    },
+    "ingredients": [
+      "wheat flour",
+      "urad dal paste",
+      "spices"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Bedmi Puri.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "spiced"
+    ]
+  },
+  {
+    "id": "recipe_ind_528",
+    "title": "Thepla",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 486,
+      "proteinGrams": 25,
+      "carbsGrams": 54,
+      "fatGrams": 19
+    },
+    "ingredients": [
+      "wheat flour",
+      "methi leaves",
+      "yogurt",
+      "spices"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Thepla.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Gujarati"
+    ]
+  },
+  {
+    "id": "recipe_ind_529",
+    "title": "Vada Pav",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 520,
+      "proteinGrams": 27,
+      "carbsGrams": 58,
+      "fatGrams": 20
+    },
+    "ingredients": [
+      "potato vada",
+      "pav bun",
+      "chutney",
+      "garlic powder"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Vada Pav.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Mumbai"
+    ]
+  },
+  {
+    "id": "recipe_ind_530",
+    "title": "Dhokla",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 537,
+      "proteinGrams": 28,
+      "carbsGrams": 59,
+      "fatGrams": 21
+    },
+    "ingredients": [
+      "gram flour",
+      "fruit salt",
+      "mustard seeds",
+      "curry leaves"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Dhokla.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Gujarati"
+    ]
+  },
+  {
+    "id": "recipe_ind_531",
+    "title": "Khandvi",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 194,
+      "proteinGrams": 29,
+      "carbsGrams": 10,
+      "fatGrams": 21
+    },
+    "ingredients": [
+      "gram flour",
+      "yogurt",
+      "mustard seeds",
+      "coconut"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Khandvi.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Gujarati"
+    ]
+  },
+  {
+    "id": "recipe_ind_532",
+    "title": "Fafda",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 211,
+      "proteinGrams": 30,
+      "carbsGrams": 10,
+      "fatGrams": 22
+    },
+    "ingredients": [
+      "gram flour",
+      "carom seeds",
+      "oil"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Fafda.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Gujarati"
+    ]
+  },
+  {
+    "id": "recipe_ind_533",
+    "title": "Handvo",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 228,
+      "proteinGrams": 5,
+      "carbsGrams": 10,
+      "fatGrams": 23
+    },
+    "ingredients": [
+      "rice lentil batter",
+      "bottle gourd",
+      "sesame seeds"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Handvo.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Gujarati"
+    ]
+  },
+  {
+    "id": "recipe_ind_534",
+    "title": "Patra",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 245,
+      "proteinGrams": 7,
+      "carbsGrams": 10,
+      "fatGrams": 24
+    },
+    "ingredients": [
+      "colocasia leaves",
+      "gram flour batter",
+      "tamarind"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Patra.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Gujarati"
+    ]
+  },
+  {
+    "id": "recipe_ind_535",
+    "title": "Poha",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 262,
+      "proteinGrams": 8,
+      "carbsGrams": 10,
+      "fatGrams": 24
+    },
+    "ingredients": [
+      "flattened rice",
+      "peanuts",
+      "mustard seeds",
+      "turmeric"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Poha.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Maharashtrian"
+    ]
+  },
+  {
+    "id": "recipe_ind_536",
+    "title": "Sabudana Khichdi",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 279,
+      "proteinGrams": 9,
+      "carbsGrams": 10,
+      "fatGrams": 25
+    },
+    "ingredients": [
+      "tapioca pearls",
+      "peanuts",
+      "potatoes",
+      "green chilies"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Sabudana Khichdi.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Maharashtrian"
+    ]
+  },
+  {
+    "id": "recipe_ind_537",
+    "title": "Upma",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 296,
+      "proteinGrams": 10,
+      "carbsGrams": 10,
+      "fatGrams": 26
+    },
+    "ingredients": [
+      "semolina",
+      "mustard seeds",
+      "curry leaves",
+      "cashews"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Upma.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "South"
+    ]
+  },
+  {
+    "id": "recipe_ind_538",
+    "title": "Rava Upma",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 313,
+      "proteinGrams": 11,
+      "carbsGrams": 10,
+      "fatGrams": 26
+    },
+    "ingredients": [
+      "roasted rava",
+      "onion",
+      "ginger",
+      "ghee"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Rava Upma.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "semolina"
+    ]
+  },
+  {
+    "id": "recipe_ind_539",
+    "title": "Vegetable Upma",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 330,
+      "proteinGrams": 12,
+      "carbsGrams": 10,
+      "fatGrams": 27
+    },
+    "ingredients": [
+      "semolina",
+      "carrots",
+      "peas",
+      "beans"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Vegetable Upma.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "vegetable"
+    ]
+  },
+  {
+    "id": "recipe_ind_540",
+    "title": "Pesarattu",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 347,
+      "proteinGrams": 13,
+      "carbsGrams": 11,
+      "fatGrams": 28
+    },
+    "ingredients": [
+      "whole green gram",
+      "ginger",
+      "green chilies"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Pesarattu.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Andhra"
+    ]
+  },
+  {
+    "id": "recipe_ind_541",
+    "title": "Plain Dosa",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 381,
+      "proteinGrams": 15,
+      "carbsGrams": 65,
+      "fatGrams": 7
+    },
+    "ingredients": [
+      "rice",
+      "urad dal",
+      "ghee"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Plain Dosa.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "South"
+    ]
+  },
+  {
+    "id": "recipe_ind_542",
+    "title": "Rava Dosa",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 398,
+      "proteinGrams": 16,
+      "carbsGrams": 66,
+      "fatGrams": 8
+    },
+    "ingredients": [
+      "semolina",
+      "rice flour",
+      "cumin",
+      "chilies"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Rava Dosa.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "South"
+    ]
+  },
+  {
+    "id": "recipe_ind_543",
+    "title": "Set Dosa",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 415,
+      "proteinGrams": 18,
+      "carbsGrams": 66,
+      "fatGrams": 9
+    },
+    "ingredients": [
+      "poha",
+      "urad dal",
+      "rice"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Set Dosa.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "soft"
+    ]
+  },
+  {
+    "id": "recipe_ind_544",
+    "title": "Mysore Masala Dosa",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 432,
+      "proteinGrams": 19,
+      "carbsGrams": 69,
+      "fatGrams": 9
+    },
+    "ingredients": [
+      "dosa batter",
+      "red chutney",
+      "potato masala"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Mysore Masala Dosa.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Karnataka"
+    ]
+  },
+  {
+    "id": "recipe_ind_545",
+    "title": "Onion Uttapam",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 449,
+      "proteinGrams": 20,
+      "carbsGrams": 70,
+      "fatGrams": 10
+    },
+    "ingredients": [
+      "dosa batter",
+      "chopped onions",
+      "green chilies"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Onion Uttapam.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "South"
+    ]
+  },
+  {
+    "id": "recipe_ind_546",
+    "title": "Vegetable Uttapam",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 466,
+      "proteinGrams": 21,
+      "carbsGrams": 71,
+      "fatGrams": 11
+    },
+    "ingredients": [
+      "dosa batter",
+      "tomatoes",
+      "onions",
+      "capsicum"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Vegetable Uttapam.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "South"
+    ]
+  },
+  {
+    "id": "recipe_ind_547",
+    "title": "Rava Idli",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 500,
+      "proteinGrams": 23,
+      "carbsGrams": 75,
+      "fatGrams": 12
+    },
+    "ingredients": [
+      "semolina",
+      "curd",
+      "mustard seeds",
+      "cashews"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Rava Idli.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Karnataka"
+    ]
+  },
+  {
+    "id": "recipe_ind_548",
+    "title": "Medu Vada",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 517,
+      "proteinGrams": 24,
+      "carbsGrams": 76,
+      "fatGrams": 13
+    },
+    "ingredients": [
+      "urad dal batter",
+      "black pepper",
+      "curry leaves"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Medu Vada.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "South"
+    ]
+  },
+  {
+    "id": "recipe_ind_549",
+    "title": "Masala Vada",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 534,
+      "proteinGrams": 25,
+      "carbsGrams": 79,
+      "fatGrams": 13
+    },
+    "ingredients": [
+      "chana dal",
+      "onions",
+      "fennel seeds"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Masala Vada.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "South"
+    ]
+  },
+  {
+    "id": "recipe_ind_550",
+    "title": "Ven Pongal",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 191,
+      "proteinGrams": 26,
+      "carbsGrams": 10,
+      "fatGrams": 14
+    },
+    "ingredients": [
+      "raw rice",
+      "moong dal",
+      "ghee",
+      "black pepper",
+      "cashews"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Ven Pongal.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Tamil"
+    ]
+  },
+  {
+    "id": "recipe_ind_551",
+    "title": "Kuzhi Paniyaram",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 208,
+      "proteinGrams": 27,
+      "carbsGrams": 10,
+      "fatGrams": 15
+    },
+    "ingredients": [
+      "idli batter",
+      "onions",
+      "mustard seeds"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Kuzhi Paniyaram.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "South"
+    ]
+  },
+  {
+    "id": "recipe_ind_552",
+    "title": "Appam",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 225,
+      "proteinGrams": 29,
+      "carbsGrams": 10,
+      "fatGrams": 16
+    },
+    "ingredients": [
+      "fermented rice flour",
+      "coconut milk",
+      "yeast"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Appam.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Kerala"
+    ]
+  },
+  {
+    "id": "recipe_ind_553",
+    "title": "Puttu",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 242,
+      "proteinGrams": 30,
+      "carbsGrams": 10,
+      "fatGrams": 16
+    },
+    "ingredients": [
+      "rice flour",
+      "grated coconut"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Puttu.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Kerala"
+    ]
+  },
+  {
+    "id": "recipe_ind_554",
+    "title": "Idiyappam",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 259,
+      "proteinGrams": 31,
+      "carbsGrams": 10,
+      "fatGrams": 17
+    },
+    "ingredients": [
+      "rice flour string hoppers",
+      "coconut milk"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Idiyappam.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Kerala"
+    ]
+  },
+  {
+    "id": "recipe_ind_555",
+    "title": "Methi Thepla",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 276,
+      "proteinGrams": 6,
+      "carbsGrams": 23,
+      "fatGrams": 18
+    },
+    "ingredients": [
+      "wheat flour",
+      "fresh methi leaves",
+      "spices"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Methi Thepla.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Gujarati"
+    ]
+  },
+  {
+    "id": "recipe_ind_556",
+    "title": "Dal Tadka",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 344,
+      "proteinGrams": 10,
+      "carbsGrams": 31,
+      "fatGrams": 20
+    },
+    "ingredients": [
+      "toor dal",
+      "ghee temper",
+      "garlic",
+      "cumin"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Dal Tadka.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Indian"
+    ]
+  },
+  {
+    "id": "recipe_ind_557",
+    "title": "Dal Fry",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 361,
+      "proteinGrams": 11,
+      "carbsGrams": 32,
+      "fatGrams": 21
+    },
+    "ingredients": [
+      "yellow lentils",
+      "onions",
+      "tomatoes",
+      "spices"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Dal Fry.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Indian"
+    ]
+  },
+  {
+    "id": "recipe_ind_558",
+    "title": "Dal Palak",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 378,
+      "proteinGrams": 12,
+      "carbsGrams": 33,
+      "fatGrams": 22
+    },
+    "ingredients": [
+      "yellow lentils",
+      "spinach leaves",
+      "garlic"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Dal Palak.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "lentil"
+    ]
+  },
+  {
+    "id": "recipe_ind_559",
+    "title": "Dal Panchmel",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 395,
+      "proteinGrams": 14,
+      "carbsGrams": 33,
+      "fatGrams": 23
+    },
+    "ingredients": [
+      "five mixed lentils",
+      "ghee",
+      "cloves",
+      "cinnamon"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Dal Panchmel.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Rajasthani"
+    ]
+  },
+  {
+    "id": "recipe_ind_560",
+    "title": "Dal Baati",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 412,
+      "proteinGrams": 15,
+      "carbsGrams": 36,
+      "fatGrams": 23
+    },
+    "ingredients": [
+      "spiced dal",
+      "baked wheat baati",
+      "ghee"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Dal Baati.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Rajasthani"
+    ]
+  },
+  {
+    "id": "recipe_ind_561",
+    "title": "Dal Dhokli",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 429,
+      "proteinGrams": 16,
+      "carbsGrams": 37,
+      "fatGrams": 24
+    },
+    "ingredients": [
+      "sweet sour dal",
+      "wheat flour dumplings"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Dal Dhokli.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Gujarati"
+    ]
+  },
+  {
+    "id": "recipe_ind_562",
+    "title": "Dal Khichdi",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 446,
+      "proteinGrams": 17,
+      "carbsGrams": 38,
+      "fatGrams": 25
+    },
+    "ingredients": [
+      "rice",
+      "toor dal",
+      "ghee",
+      "cumin"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Dal Khichdi.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "rice"
+    ]
+  },
+  {
+    "id": "recipe_ind_563",
+    "title": "Moong Dal Khichdi",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 463,
+      "proteinGrams": 18,
+      "carbsGrams": 42,
+      "fatGrams": 25
+    },
+    "ingredients": [
+      "rice",
+      "yellow moong dal",
+      "ghee"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Moong Dal Khichdi.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "light"
+    ]
+  },
+  {
+    "id": "recipe_ind_564",
+    "title": "Masala Khichdi",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 480,
+      "proteinGrams": 19,
+      "carbsGrams": 43,
+      "fatGrams": 26
+    },
+    "ingredients": [
+      "rice",
+      "lentils",
+      "vegetables",
+      "spices"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Masala Khichdi.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "spiced"
+    ]
+  },
+  {
+    "id": "recipe_ind_565",
+    "title": "Vegetable Khichdi",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 497,
+      "proteinGrams": 20,
+      "carbsGrams": 44,
+      "fatGrams": 27
+    },
+    "ingredients": [
+      "rice",
+      "dal",
+      "carrots",
+      "peas",
+      "potatoes"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Vegetable Khichdi.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "vegetable"
+    ]
+  },
+  {
+    "id": "recipe_ind_566",
+    "title": "Shahi Paneer",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 531,
+      "proteinGrams": 22,
+      "carbsGrams": 97,
+      "fatGrams": 6
+    },
+    "ingredients": [
+      "paneer",
+      "cashew paste",
+      "cream",
+      "saffron"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Shahi Paneer.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "rich"
+    ]
+  },
+  {
+    "id": "recipe_ind_567",
+    "title": "Kadai Paneer",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 188,
+      "proteinGrams": 23,
+      "carbsGrams": 10,
+      "fatGrams": 7
+    },
+    "ingredients": [
+      "paneer",
+      "capsicum",
+      "kadai masala",
+      "tomatoes"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Kadai Paneer.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "spiced"
+    ]
+  },
+  {
+    "id": "recipe_ind_568",
+    "title": "Paneer Tikka Masala",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 222,
+      "proteinGrams": 26,
+      "carbsGrams": 12,
+      "fatGrams": 8
+    },
+    "ingredients": [
+      "grilled paneer",
+      "spiced tomato gravy"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Paneer Tikka Masala.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "grilled"
+    ]
+  },
+  {
+    "id": "recipe_ind_569",
+    "title": "Matar Paneer",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 239,
+      "proteinGrams": 27,
+      "carbsGrams": 13,
+      "fatGrams": 9
+    },
+    "ingredients": [
+      "paneer",
+      "green peas",
+      "tomato gravy"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Matar Paneer.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "peas"
+    ]
+  },
+  {
+    "id": "recipe_ind_570",
+    "title": "Palak Corn",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 256,
+      "proteinGrams": 28,
+      "carbsGrams": 14,
+      "fatGrams": 10
+    },
+    "ingredients": [
+      "sweet corn",
+      "spinach puree",
+      "spices"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Palak Corn.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "spinach"
+    ]
+  },
+  {
+    "id": "recipe_ind_571",
+    "title": "Malai Kofta",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 273,
+      "proteinGrams": 29,
+      "carbsGrams": 17,
+      "fatGrams": 10
+    },
+    "ingredients": [
+      "paneer potato kofta",
+      "cashew cream gravy"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Malai Kofta.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "cream-based"
+    ]
+  },
+  {
+    "id": "recipe_ind_572",
+    "title": "Lauki Kofta",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 290,
+      "proteinGrams": 30,
+      "carbsGrams": 18,
+      "fatGrams": 11
+    },
+    "ingredients": [
+      "bottle gourd dumplings",
+      "spiced curry"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Lauki Kofta.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "bottle"
+    ]
+  },
+  {
+    "id": "recipe_ind_573",
+    "title": "Nargisi Kofta",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 307,
+      "proteinGrams": 5,
+      "carbsGrams": 45,
+      "fatGrams": 12
+    },
+    "ingredients": [
+      "stuffed vegetable dumplings",
+      "rich gravy"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Nargisi Kofta.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "stuffed"
+    ]
+  },
+  {
+    "id": "recipe_ind_574",
+    "title": "Navratan Korma",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 324,
+      "proteinGrams": 6,
+      "carbsGrams": 48,
+      "fatGrams": 12
+    },
+    "ingredients": [
+      "nine vegetables and nuts",
+      "creamy sauce"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Navratan Korma.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "mixed"
+    ]
+  },
+  {
+    "id": "recipe_ind_575",
+    "title": "Vegetable Korma",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 341,
+      "proteinGrams": 7,
+      "carbsGrams": 49,
+      "fatGrams": 13
+    },
+    "ingredients": [
+      "mixed vegetables",
+      "coconut cashew paste"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Vegetable Korma.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "mixed"
+    ]
+  },
+  {
+    "id": "recipe_ind_576",
+    "title": "Kadai Vegetable",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 358,
+      "proteinGrams": 8,
+      "carbsGrams": 50,
+      "fatGrams": 14
+    },
+    "ingredients": [
+      "capsicum",
+      "carrots",
+      "peas",
+      "kadai spices"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Kadai Vegetable.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "spiced"
+    ]
+  },
+  {
+    "id": "recipe_ind_577",
+    "title": "Mix Veg Curry",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 375,
+      "proteinGrams": 10,
+      "carbsGrams": 50,
+      "fatGrams": 15
+    },
+    "ingredients": [
+      "carrots",
+      "peas",
+      "potatoes",
+      "tomato gravy"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Mix Veg Curry.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "mixed"
+    ]
+  },
+  {
+    "id": "recipe_ind_578",
+    "title": "Aloo Gobi",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 392,
+      "proteinGrams": 11,
+      "carbsGrams": 53,
+      "fatGrams": 15
+    },
+    "ingredients": [
+      "potatoes",
+      "cauliflower",
+      "turmeric",
+      "ginger"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Aloo Gobi.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "potato"
+    ]
+  },
+  {
+    "id": "recipe_ind_579",
+    "title": "Aloo Matar",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 409,
+      "proteinGrams": 12,
+      "carbsGrams": 54,
+      "fatGrams": 16
+    },
+    "ingredients": [
+      "potatoes",
+      "green peas",
+      "tomato gravy"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Aloo Matar.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "potato"
+    ]
+  },
+  {
+    "id": "recipe_ind_580",
+    "title": "Aloo Palak",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 426,
+      "proteinGrams": 13,
+      "carbsGrams": 55,
+      "fatGrams": 17
+    },
+    "ingredients": [
+      "potatoes",
+      "spinach",
+      "garlic",
+      "spices"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Aloo Palak.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "potato"
+    ]
+  },
+  {
+    "id": "recipe_ind_581",
+    "title": "Aloo Baingan",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 443,
+      "proteinGrams": 14,
+      "carbsGrams": 59,
+      "fatGrams": 17
+    },
+    "ingredients": [
+      "potatoes",
+      "eggplant",
+      "tomatoes",
+      "spices"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Aloo Baingan.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "potato"
+    ]
+  },
+  {
+    "id": "recipe_ind_582",
+    "title": "Baingan Bharta",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 460,
+      "proteinGrams": 15,
+      "carbsGrams": 60,
+      "fatGrams": 18
+    },
+    "ingredients": [
+      "roasted eggplant mash",
+      "onions",
+      "tomatoes"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Baingan Bharta.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "smoky"
+    ]
+  },
+  {
+    "id": "recipe_ind_583",
+    "title": "Bharwa Baingan",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 477,
+      "proteinGrams": 16,
+      "carbsGrams": 61,
+      "fatGrams": 19
+    },
+    "ingredients": [
+      "baby eggplants",
+      "stuffed spice mix"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Bharwa Baingan.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "stuffed"
+    ]
+  },
+  {
+    "id": "recipe_ind_584",
+    "title": "Bhindi Masala",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 494,
+      "proteinGrams": 17,
+      "carbsGrams": 64,
+      "fatGrams": 19
+    },
+    "ingredients": [
+      "okra",
+      "onions",
+      "tomatoes",
+      "dry spices"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Bhindi Masala.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "okra"
+    ]
+  },
+  {
+    "id": "recipe_ind_585",
+    "title": "Bhindi Fry",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 511,
+      "proteinGrams": 18,
+      "carbsGrams": 65,
+      "fatGrams": 20
+    },
+    "ingredients": [
+      "crispy fried okra",
+      "amchur powder",
+      "chilies"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Bhindi Fry.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "crispy"
+    ]
+  },
+  {
+    "id": "recipe_ind_586",
+    "title": "Jeera Aloo",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 528,
+      "proteinGrams": 19,
+      "carbsGrams": 66,
+      "fatGrams": 21
+    },
+    "ingredients": [
+      "boiled potatoes",
+      "cumin seeds",
+      "green chilies"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Jeera Aloo.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "cumin"
+    ]
+  },
+  {
+    "id": "recipe_ind_587",
+    "title": "Dum Aloo",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 185,
+      "proteinGrams": 21,
+      "carbsGrams": 10,
+      "fatGrams": 22
+    },
+    "ingredients": [
+      "baby potatoes",
+      "yogurt gravy",
+      "fennel powder"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Dum Aloo.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Kashmiri"
+    ]
+  },
+  {
+    "id": "recipe_ind_588",
+    "title": "Aloo Tamatar",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 202,
+      "proteinGrams": 22,
+      "carbsGrams": 10,
+      "fatGrams": 22
+    },
+    "ingredients": [
+      "potatoes",
+      "tangy tomato gravy",
+      "coriander"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Aloo Tamatar.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "potato"
+    ]
+  },
+  {
+    "id": "recipe_ind_589",
+    "title": "Methi Aloo",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 219,
+      "proteinGrams": 23,
+      "carbsGrams": 10,
+      "fatGrams": 23
+    },
+    "ingredients": [
+      "potatoes",
+      "fresh fenugreek leaves"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Methi Aloo.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "fenugreek"
+    ]
+  },
+  {
+    "id": "recipe_ind_590",
+    "title": "Gobi Masala",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 236,
+      "proteinGrams": 24,
+      "carbsGrams": 10,
+      "fatGrams": 24
+    },
+    "ingredients": [
+      "cauliflower florets",
+      "onion tomato masala"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Gobi Masala.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "cauliflower"
+    ]
+  },
+  {
+    "id": "recipe_ind_591",
+    "title": "Gobi Manchurian",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 253,
+      "proteinGrams": 25,
+      "carbsGrams": 10,
+      "fatGrams": 24
+    },
+    "ingredients": [
+      "fried cauliflower florets",
+      "soy chili sauce"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Gobi Manchurian.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Indo-Chinese"
+    ]
+  },
+  {
+    "id": "recipe_ind_592",
+    "title": "Matar Mushroom",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 270,
+      "proteinGrams": 26,
+      "carbsGrams": 10,
+      "fatGrams": 25
+    },
+    "ingredients": [
+      "mushrooms",
+      "green peas",
+      "onion tomato gravy"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Matar Mushroom.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "peas"
+    ]
+  },
+  {
+    "id": "recipe_ind_593",
+    "title": "Mushroom Masala",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 287,
+      "proteinGrams": 27,
+      "carbsGrams": 10,
+      "fatGrams": 26
+    },
+    "ingredients": [
+      "button mushrooms",
+      "spiced onion tomato gravy"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Mushroom Masala.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "spiced"
+    ]
+  },
+  {
+    "id": "recipe_ind_594",
+    "title": "Mushroom Do Pyaza",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 304,
+      "proteinGrams": 28,
+      "carbsGrams": 10,
+      "fatGrams": 26
+    },
+    "ingredients": [
+      "mushrooms",
+      "diced onions",
+      "curry spices"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Mushroom Do Pyaza.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "mushroom"
+    ]
+  },
+  {
+    "id": "recipe_ind_595",
+    "title": "Corn Palak",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 321,
+      "proteinGrams": 29,
+      "carbsGrams": 10,
+      "fatGrams": 27
+    },
+    "ingredients": [
+      "sweet corn",
+      "spinach puree",
+      "garlic"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Corn Palak.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "corn"
+    ]
+  },
+  {
+    "id": "recipe_ind_596",
+    "title": "Chana Masala",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 338,
+      "proteinGrams": 30,
+      "carbsGrams": 10,
+      "fatGrams": 28
+    },
+    "ingredients": [
+      "chickpeas",
+      "tea leaves extract",
+      "chana masala spices"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Chana Masala.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "spiced"
+    ]
+  },
+  {
+    "id": "recipe_ind_597",
+    "title": "Kala Chana Curry",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 355,
+      "proteinGrams": 6,
+      "carbsGrams": 67,
+      "fatGrams": 7
+    },
+    "ingredients": [
+      "black chickpeas",
+      "thin onion gravy"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Kala Chana Curry.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "black"
+    ]
+  },
+  {
+    "id": "recipe_ind_598",
+    "title": "Lobia Masala",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 372,
+      "proteinGrams": 7,
+      "carbsGrams": 70,
+      "fatGrams": 7
+    },
+    "ingredients": [
+      "black-eyed peas",
+      "spiced gravy"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Lobia Masala.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "black-eyed"
+    ]
+  },
+  {
+    "id": "recipe_ind_599",
+    "title": "Matar Masala",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 389,
+      "proteinGrams": 8,
+      "carbsGrams": 71,
+      "fatGrams": 8
+    },
+    "ingredients": [
+      "green peas",
+      "onion tomato sauce"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Matar Masala.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "green"
+    ]
+  },
+  {
+    "id": "recipe_ind_600",
+    "title": "Soya Chaap Masala",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 406,
+      "proteinGrams": 9,
+      "carbsGrams": 72,
+      "fatGrams": 9
+    },
+    "ingredients": [
+      "soybean sticks",
+      "spiced tomato gravy"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Soya Chaap Masala.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "soy"
+    ]
+  },
+  {
+    "id": "recipe_ind_601",
+    "title": "Soya Chaap Tikka",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 423,
+      "proteinGrams": 10,
+      "carbsGrams": 76,
+      "fatGrams": 9
+    },
+    "ingredients": [
+      "marinated soybean sticks",
+      "tandoori spices"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Soya Chaap Tikka.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "grilled"
+    ]
+  },
+  {
+    "id": "recipe_ind_602",
+    "title": "Methi Matar Malai",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 440,
+      "proteinGrams": 11,
+      "carbsGrams": 77,
+      "fatGrams": 10
+    },
+    "ingredients": [
+      "fresh methi",
+      "peas",
+      "heavy cream"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Methi Matar Malai.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "fenugreek"
+    ]
+  },
+  {
+    "id": "recipe_ind_603",
+    "title": "Sarson ka Saag",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 457,
+      "proteinGrams": 12,
+      "carbsGrams": 78,
+      "fatGrams": 11
+    },
+    "ingredients": [
+      "mustard greens",
+      "spinach",
+      "makki flour",
+      "ghee"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Sarson ka Saag.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Vegetarian",
+      "Punjabi"
+    ]
+  },
+  {
+    "id": "recipe_ind_604",
+    "title": "Chicken Curry",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 479,
+      "proteinGrams": 29,
+      "carbsGrams": 30,
+      "fatGrams": 27
+    },
+    "ingredients": [
+      "500 g chicken",
+      "onions",
+      "tomatoes",
+      "curry powder"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Chicken Curry.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Non-Vegetarian"
+    ]
+  },
+  {
+    "id": "recipe_ind_605",
+    "title": "Mutton Biryani",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 428,
+      "proteinGrams": 25,
+      "carbsGrams": 26,
+      "fatGrams": 25
+    },
+    "ingredients": [
+      "500 g mutton",
+      "basmati rice",
+      "spices",
+      "ghee"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Mutton Biryani.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Non-Vegetarian"
+    ]
+  },
+  {
+    "id": "recipe_ind_606",
+    "title": "Mutton Rogan Josh",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 425,
+      "proteinGrams": 23,
+      "carbsGrams": 43,
+      "fatGrams": 18
+    },
+    "ingredients": [
+      "mutton",
+      "kashmiri chili",
+      "yogurt",
+      "rattan jot"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Mutton Rogan Josh.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Non-Vegetarian",
+      "Kashmiri"
+    ]
+  },
+  {
+    "id": "recipe_ind_607",
+    "title": "Egg Biryani",
+    "cuisine": "Indian",
+    "prepTimeMinutes": 30,
+    "nutrition": {
+      "calories": 462,
+      "proteinGrams": 28,
+      "carbsGrams": 29,
+      "fatGrams": 26
+    },
+    "ingredients": [
+      "boiled eggs",
+      "basmati rice",
+      "biryani masala"
+    ],
+    "instructions": [
+      "1. Prepare ingredients for Egg Biryani.",
+      "2. Heat oil or ghee in a pan and temper with spices.",
+      "3. Cook onions, tomatoes, and main ingredients until fragrant.",
+      "4. Simmer until tender and garnish with fresh coriander."
+    ],
+    "tags": [
+      "Indian",
+      "Non-Vegetarian"
+    ]
   }
 ]
