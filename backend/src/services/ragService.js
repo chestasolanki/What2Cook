@@ -82,13 +82,13 @@ async function generateStreamedRAGResponse(userQuery, searchOptions, res) {
 
   try {
     const groq = getGroqClient();
-    // 4. Stream response from Groq
+   
     const stream = await groq.chat.completions.create({
       messages: [
         { role: 'system', content: systemPrompt },
         { role: 'user', content: userQuery }
       ],
-      model: 'llama-3.1-8b-instant',
+      model: 'llama-3.3-70b-versatile',
       temperature: 0.2,
       stream: true
     });
