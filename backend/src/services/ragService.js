@@ -88,7 +88,7 @@ async function generateStreamedRAGResponse(userQuery, searchOptions, res) {
         { role: 'system', content: systemPrompt },
         { role: 'user', content: userQuery }
       ],
-      model: 'llama-3.3-70b-versatile',
+      model: 'openai/gpt-oss-120b',
       temperature: 0.2,
       stream: true
     });
