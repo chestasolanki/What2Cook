@@ -88,7 +88,7 @@ async function generateStreamedRAGResponse(userQuery, searchOptions, res) {
         { role: 'system', content: systemPrompt },
         { role: 'user', content: userQuery }
       ],
-      model: 'llama-3.3-70b-versatile',
+      model: 'llama-3.1-8b-instant',
       temperature: 0.2,
       stream: true
     });
